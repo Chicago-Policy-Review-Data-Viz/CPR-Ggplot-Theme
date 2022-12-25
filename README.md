@@ -26,6 +26,7 @@ ggplot(mtcars, mapping = aes(x=mpg,y=cyl, color=vs)) +
        caption = "caption")
    ``` 
    
+   
      ## Notes
      Description and additional features still in motion...
 
