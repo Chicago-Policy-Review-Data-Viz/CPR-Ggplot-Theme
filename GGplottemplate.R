@@ -11,14 +11,25 @@ library(devtools)
 
 theme_CPR <- function(){
   font<-"Neue Haas Grotesk Text Pro"
+  base
   theme(
     plot.background = element_rect(fill = "#FDFDFD"),
     panel.background = element_rect(fill = "#FDFDFD"),
-    panel.grid.major.y = element_line(size = 1, color = "gray94"),
-    panel.grid.major.x = element_blank(),
-    panel.grid.minor.y = element_line(size = 1, color = "#FDFDFD"), #this is not used
-    panel.grid.minor.x = element_blank(),
 
+  # ifelse(y.line.minor=F,panel.grid.minor.y = element_blank(),
+  #        panel.grid.minor.y = element_line(size=1, color ="#6e7b88")),
+  # ifelse(x.line.minor=F,panel.grid.minor.x = element_blank(),
+  #        panel.grid.minor.x = element_line(size=1, color ="#6e7b88" )),
+  # ifelse(y.line.major=T, panel.grid.major.y = element_line(size = 1, color = "#6e7b88"),
+  #        panel.grid.major.y = element_blank()),
+  # ifelse(x.line.major=F,panel.grid.major.x = element_blank(),
+          # panel.grid.major.x = element_line(size = 1, color = "#6e7b88")),
+
+
+  panel.grid.minor.y = element_blank(),
+  grid.minor.x = element_blank(),
+  panel.grid.major.y = element_line(size = 1, color = "#6e7b88"),
+  panel.grid.major.x = element_blank(),
     axis.line = element_line(color = "#6e7b88", size = .75),
 
 
@@ -72,6 +83,7 @@ theme_CPR <- function(){
 
     #Plot Margin
     plot.margin = margin(2, 1, 1, 1, "cm"))
+  complete = T
 }
 
 
