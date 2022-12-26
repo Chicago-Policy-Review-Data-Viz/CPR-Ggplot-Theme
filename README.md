@@ -30,4 +30,13 @@ ggplot(mtcars, mapping = aes(x=mpg,y=cyl, color=vs)) +
    
  ## CPR Colour Palette
 
+```
+cpr_palette("UChicago_spectrum")
+cpr_palette("UChicago_core")
+cpr_palette("CPR_Gray")
+cpr_palette("CPR_neon")
+cpr_palette("coolnight")
+cpr_palette("mutedrainbow")
+cpr_palette("Cyberpunk")
+```
   
