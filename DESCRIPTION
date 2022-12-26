@@ -1,9 +1,8 @@
 Package: CPRDataViz
-Title: What the Package Does (One Line, Title Case)
+Title: GGplot Theme and Color Pallettes for CPR UChicago
 Version: 0.0.0.9000
 Authors@R: 
-    person("Zai", "Rutter", , "zrutter@uchicago.edu", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person("Zai", "Rutter", role = c("aut", "cre"), email = "zrutter@uchicago.edu")
 Description: Theme for CPR Data Viz.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license

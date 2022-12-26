@@ -1,13 +1,28 @@
 ######################
 # Chicago Policy Review Ggplot Template
 # Created by Zai Rutter
-# December 23 2022
+# December 25 2022
 ######################
 library(devtools)
 
 
 ########################################################
 # Defining a theme
+
+#' Title:CPR DataViz Package
+#'
+#'This is a theme used with ggplot (feature of tidyverse) that the Data Viz team at the Chicago Policy Review should use in their graphics.In order for this to work please install the font faces that are found on the CPR google drive under "Template Font Faces MUST DOWNLOAD"
+#' This theme includes theme_CPR which corresponds with ggplot and includes several color pallets under cpr_palette.
+#'
+#'
+#' @return
+#' @export
+#' @importFrom graphics rect par image text
+#' @importFrom grDevices rgb
+#' @examples
+#'
+#'
+#'
 
 theme_CPR <- function(){
   font<-"Neue Haas Grotesk Text Pro"
@@ -85,6 +100,3 @@ theme_CPR <- function(){
     plot.margin = margin(2, 1, 1, 1, "cm"))
   complete = T
 }
-
-
-
