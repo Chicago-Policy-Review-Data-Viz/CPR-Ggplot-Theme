@@ -1,12 +1,14 @@
 # CPR Ggplot Theme
- This is a standard theme for CPR Dataviz graphics
+ This package includes a standard GGplot theme for CPR DataViz staff and it includes some Uchicago inspired color palettes.
  
- ## Pre Reqs
+  ## GGplot Theme
+  
+ ### Pre Reqs
  In order to use this package you must install the fonts from the font folder. This can also be found in CPR dataviz folder under "Template Fonts MUST DOWNLOAD"
  
  You must have the package "devtools" in R. To do this type ```install.packages("devtools")``` and then load library ``` library(devtools)``` once you are done with that proceed...
  
- ## Installation and Use
+ ### Installation and Use
  Follow these steps
  
  ```
@@ -26,8 +28,6 @@ ggplot(mtcars, mapping = aes(x=mpg,y=cyl, color=vs)) +
        caption = "caption")
    ``` 
    
-   
-     ## Notes
-     Description and additional features still in motion...
+ ## CPR Colour Palette
 
   
