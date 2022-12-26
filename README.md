@@ -29,6 +29,8 @@ ggplot(mtcars, mapping = aes(x=mpg,y=cyl, color=vs)) +
    ``` 
    
  ## CPR Colour Palette
+ 
+ For more info check out ```?CPRDataViz::cpr_palette```
 
 ```
 cpr_palette("UChicago_spectrum")
